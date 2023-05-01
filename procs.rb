@@ -1,3 +1,6 @@
+# Procs can be used to save blocks of code to be used later
+# Known as proc objects
+
 def square_of_sum (my_array, proc_square, proc_sum)
   sum = proc_sum.call(my_array)
   proc_square.call(sum)
